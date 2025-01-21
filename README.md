@@ -5,14 +5,16 @@
 ## Kelas : TI.23.A.6
 &nbsp;
 ## Struktur File Program
-![alt text]
+![alt text](image/strukturpath.png)
 &nbsp;
 ## DataBase
-![alt text]
+![alt text](image/database.png)
 ### Isi Table
-![image]
+Tabel Mahasiswa
+![image](image/tabel1.png)
 <br>
-![image]
+Tabel Nilai
+![image](image/tabel2.png)
 &nbsp;
 ## Kode Program
 ## DataBase
@@ -1002,3 +1004,10 @@ public class Main {
     }
 }
 ```
+## Config
+```java
+db.url=jdbc:mysql://localhost:3306/akademik
+db.user=root
+db.password=
+```
+
